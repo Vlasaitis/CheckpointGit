@@ -3,5 +3,7 @@ public class Main {
         System.out.println("Some text");
         ExtraClass extra = new ExtraClass("Vytis");
         extra.printName();
+        HappyPrint hello = new HappyPrint("Vytis");
+        hello.printGreeting();
     }
 }
